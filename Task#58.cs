@@ -25,7 +25,8 @@ void PrintArray(int[,] inputArray) // Вывод массива
     Console.WriteLine();
     }
 }
- 
+
+// Умножение матриц
 int[,] Prod2Array (int [,] input1Array, int [,] input2Array) {
     int[,] arrayProd = new int[input1Array.GetLength(0), input1Array.GetLength(1)];
     if (input1Array.GetLength(1) != input2Array.GetLength(0)) {
