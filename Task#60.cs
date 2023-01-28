@@ -1,5 +1,7 @@
 int[,,] arr = new int[3, 3, 3];
- 
+
+FillArray(arr);
+PrintArray(arr);
 
 void PrintArray (int[,,] inputArray)
 {
@@ -53,6 +55,3 @@ void FillArray(int[,,] inputArray)
     }
   }
 }
-
-FillArray(arr);
-PrintArray(arr);
